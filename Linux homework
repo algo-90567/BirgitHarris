@@ -1,0 +1,6 @@
+renderPerson(person) {
+  return `Name: ${person.firstname} Lastname: ${person.lastname}`;
+}
+
+const root = document.getElementById("root");
+root.innerHTML = renderPerson(person);

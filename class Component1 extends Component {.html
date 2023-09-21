@@ -1,0 +1,29 @@
+class Component1 extends Component {
+render() {
+return (
+<h1>Hello React</h1>
+)
+}
+}
+
+class Component2 extends Component {
+render() {
+return (
+<ul>
+<li>List item 1</li>
+<li>List item 2</li>
+</ul>
+)
+}
+}
+
+class App extends Component {
+render() {
+return (
+<div>
+<Component1 />
+<Component2 />
+</div>
+)
+}
+}

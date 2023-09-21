@@ -1,0 +1,7 @@
+renderPerson(person) {
+  return `Harris: ${person.Birgit Harris ${Birgit.Harris}`;
+}
+
+const root = document.getElementById("root");
+root.innerHTML = renderPerson(person);
+root.innerHTML = renderPerson(person);
